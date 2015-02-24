@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6012A8E31A99AD44005521C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012A8E21A99AD44005521C1 /* AppDelegate.swift */; };
+		6012A8E61A99AD44005521C1 /* RailWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6012A8E41A99AD44005521C1 /* RailWatch.xcdatamodeld */; };
+		6012A8E81A99AD44005521C1 /* RailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012A8E71A99AD44005521C1 /* RailViewController.swift */; };
+		6012A8EB1A99AD44005521C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6012A8E91A99AD44005521C1 /* Main.storyboard */; };
+		6012A8ED1A99AD44005521C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6012A8EC1A99AD44005521C1 /* Images.xcassets */; };
+		6012A8F01A99AD44005521C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6012A8EE1A99AD44005521C1 /* LaunchScreen.xib */; };
+		6012A8FC1A99AD44005521C1 /* RailWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012A8FB1A99AD44005521C1 /* RailWatchTests.swift */; };
+		604860671A99B8240005B5A9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604860661A99B8240005B5A9 /* DataManager.swift */; };
+		604860691A99C09F0005B5A9 /* StopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604860681A99C09F0005B5A9 /* StopsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6012A8F61A99AD44005521C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6012A8D51A99AD44005521C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6012A8DC1A99AD44005521C1;
+			remoteInfo = RailWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6012A8DD1A99AD44005521C1 /* RailWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RailWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6012A8E11A99AD44005521C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6012A8E21A99AD44005521C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6012A8E51A99AD44005521C1 /* RailWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RailWatch.xcdatamodel; sourceTree = "<group>"; };
+		6012A8E71A99AD44005521C1 /* RailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailViewController.swift; sourceTree = "<group>"; };
+		6012A8EA1A99AD44005521C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6012A8EC1A99AD44005521C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6012A8EF1A99AD44005521C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6012A8F51A99AD44005521C1 /* RailWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RailWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6012A8FA1A99AD44005521C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6012A8FB1A99AD44005521C1 /* RailWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailWatchTests.swift; sourceTree = "<group>"; };
+		604860661A99B8240005B5A9 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		604860681A99C09F0005B5A9 /* StopsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6012A8DA1A99AD44005521C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6012A8F21A99AD44005521C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6012A8D41A99AD44005521C1 = {
+			isa = PBXGroup;
+			children = (
+				6012A8DF1A99AD44005521C1 /* RailWatch */,
+				6012A8F81A99AD44005521C1 /* RailWatchTests */,
+				6012A8DE1A99AD44005521C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6012A8DE1A99AD44005521C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6012A8DD1A99AD44005521C1 /* RailWatch.app */,
+				6012A8F51A99AD44005521C1 /* RailWatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6012A8DF1A99AD44005521C1 /* RailWatch */ = {
+			isa = PBXGroup;
+			children = (
+				6012A8E21A99AD44005521C1 /* AppDelegate.swift */,
+				6012A8E71A99AD44005521C1 /* RailViewController.swift */,
+				604860661A99B8240005B5A9 /* DataManager.swift */,
+				6012A8E91A99AD44005521C1 /* Main.storyboard */,
+				604860681A99C09F0005B5A9 /* StopsViewController.swift */,
+				6012A8EC1A99AD44005521C1 /* Images.xcassets */,
+				6012A8EE1A99AD44005521C1 /* LaunchScreen.xib */,
+				6012A8E41A99AD44005521C1 /* RailWatch.xcdatamodeld */,
+				6012A8E01A99AD44005521C1 /* Supporting Files */,
+			);
+			path = RailWatch;
+			sourceTree = "<group>";
+		};
+		6012A8E01A99AD44005521C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6012A8E11A99AD44005521C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6012A8F81A99AD44005521C1 /* RailWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				6012A8FB1A99AD44005521C1 /* RailWatchTests.swift */,
+				6012A8F91A99AD44005521C1 /* Supporting Files */,
+			);
+			path = RailWatchTests;
+			sourceTree = "<group>";
+		};
+		6012A8F91A99AD44005521C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6012A8FA1A99AD44005521C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6012A8DC1A99AD44005521C1 /* RailWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6012A8FF1A99AD44005521C1 /* Build configuration list for PBXNativeTarget "RailWatch" */;
+			buildPhases = (
+				6012A8D91A99AD44005521C1 /* Sources */,
+				6012A8DA1A99AD44005521C1 /* Frameworks */,
+				6012A8DB1A99AD44005521C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RailWatch;
+			productName = RailWatch;
+			productReference = 6012A8DD1A99AD44005521C1 /* RailWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6012A8F41A99AD44005521C1 /* RailWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6012A9021A99AD44005521C1 /* Build configuration list for PBXNativeTarget "RailWatchTests" */;
+			buildPhases = (
+				6012A8F11A99AD44005521C1 /* Sources */,
+				6012A8F21A99AD44005521C1 /* Frameworks */,
+				6012A8F31A99AD44005521C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6012A8F71A99AD44005521C1 /* PBXTargetDependency */,
+			);
+			name = RailWatchTests;
+			productName = RailWatchTests;
+			productReference = 6012A8F51A99AD44005521C1 /* RailWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6012A8D51A99AD44005521C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Luke Knepper";
+				TargetAttributes = {
+					6012A8DC1A99AD44005521C1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6012A8F41A99AD44005521C1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6012A8DC1A99AD44005521C1;
+					};
+				};
+			};
+			buildConfigurationList = 6012A8D81A99AD44005521C1 /* Build configuration list for PBXProject "RailWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6012A8D41A99AD44005521C1;
+			productRefGroup = 6012A8DE1A99AD44005521C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6012A8DC1A99AD44005521C1 /* RailWatch */,
+				6012A8F41A99AD44005521C1 /* RailWatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6012A8DB1A99AD44005521C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6012A8EB1A99AD44005521C1 /* Main.storyboard in Resources */,
+				6012A8F01A99AD44005521C1 /* LaunchScreen.xib in Resources */,
+				6012A8ED1A99AD44005521C1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6012A8F31A99AD44005521C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6012A8D91A99AD44005521C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6012A8E81A99AD44005521C1 /* RailViewController.swift in Sources */,
+				604860671A99B8240005B5A9 /* DataManager.swift in Sources */,
+				6012A8E31A99AD44005521C1 /* AppDelegate.swift in Sources */,
+				604860691A99C09F0005B5A9 /* StopsViewController.swift in Sources */,
+				6012A8E61A99AD44005521C1 /* RailWatch.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6012A8F11A99AD44005521C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6012A8FC1A99AD44005521C1 /* RailWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6012A8F71A99AD44005521C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6012A8DC1A99AD44005521C1 /* RailWatch */;
+			targetProxy = 6012A8F61A99AD44005521C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6012A8E91A99AD44005521C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6012A8EA1A99AD44005521C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6012A8EE1A99AD44005521C1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6012A8EF1A99AD44005521C1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6012A8FD1A99AD44005521C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6012A8FE1A99AD44005521C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6012A9001A99AD44005521C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RailWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6012A9011A99AD44005521C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RailWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6012A9031A99AD44005521C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RailWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RailWatch.app/RailWatch";
+			};
+			name = Debug;
+		};
+		6012A9041A99AD44005521C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RailWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RailWatch.app/RailWatch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6012A8D81A99AD44005521C1 /* Build configuration list for PBXProject "RailWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6012A8FD1A99AD44005521C1 /* Debug */,
+				6012A8FE1A99AD44005521C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6012A8FF1A99AD44005521C1 /* Build configuration list for PBXNativeTarget "RailWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6012A9001A99AD44005521C1 /* Debug */,
+				6012A9011A99AD44005521C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6012A9021A99AD44005521C1 /* Build configuration list for PBXNativeTarget "RailWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6012A9031A99AD44005521C1 /* Debug */,
+				6012A9041A99AD44005521C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6012A8E41A99AD44005521C1 /* RailWatch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6012A8E51A99AD44005521C1 /* RailWatch.xcdatamodel */,
+			);
+			currentVersion = 6012A8E51A99AD44005521C1 /* RailWatch.xcdatamodel */;
+			path = RailWatch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6012A8D51A99AD44005521C1 /* Project object */;
+}
