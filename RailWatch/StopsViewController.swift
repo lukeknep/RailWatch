@@ -8,7 +8,7 @@
 
 import UIKit
 
-class StopsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UIAlertViewDelegate {
+class StopsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 	@IBOutlet var tableView: UITableView!
 	var rail:String!
 	
@@ -27,16 +27,6 @@ class StopsViewController: UIViewController, UITableViewDataSource, UITableViewD
 		cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
 		
 		return cell
-	}
-	
-	@IBAction func didTapAdd() {
-		var alert = UIAlertView(title: "New Stop", message: "Type in a new stop", delegate: self,
-			cancelButtonTitle: "Cancel",
-			otherButtonTitles: "Add")
-		
-		alert.alertViewStyle = UIAlertViewStyle.PlainTextInput
-		
-		alert.show()
 	}
 	
 	func alertView(alertView: UIAlertView, didDismissWithButtonIndex buttonIndex: Int) {
